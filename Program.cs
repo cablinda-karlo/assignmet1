@@ -71,14 +71,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Student student1 = new Student("2023001", "Jesie P. Peritos", "BS Information Technology");
+        Student student1 = new Student("2023001", "Karl Luigi P. Cablinda", "BS Information Technology");
 
         student1.displayInfo();
 
-        BankAccount account = new BankAccount("555555555", "Jesie P. Peritos", 1000000.00);
+        BankAccount account = new BankAccount("555555555", "Karl Luigi P. Cablinda", 1000000.00);
 
         account.Deposit(500);
         account.Withdraw(1000);
         account.DisplayBalance();
     }
 }
+
